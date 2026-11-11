@@ -1,13 +1,25 @@
 {
-  "name": "09_monitoring_node_app",
+  "name": "monitoring-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Customer satisfaction\r - Rapid diagnosis\r - Reduced operating costs\r - Effective product development",
+  "keywords": [],
+  "homepage": "https://github.com/CodeLikeNaveen/Application-Performance-Monitoring#readme",
+  "bugs": {
+    "url": "https://github.com/CodeLikeNaveen/Application-Performance-Monitoring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLikeNaveen/Application-Performance-Monitoring.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module"
+  "dependencies": {
+    "apminsight": "^5.6.1",
+    "express": "^5.3.0"
+  }
 }
