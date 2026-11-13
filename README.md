@@ -21,9 +21,9 @@
 ## Implement 
 - Create a file [server](server.js) 
 - Install APM
-'''bash
-npm i apminsight --save
-'''
+    ```bash
+    npm i apminsight --save
+    ```
 - Create a new file named ```apminsightnode.json``` in the same directory as your application start file. Add the below code snippet in the file:
     ```json
     {
