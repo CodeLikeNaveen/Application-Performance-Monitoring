@@ -32,5 +32,17 @@
         "port" : <application-port>
     }
     ```
+- Now In Production you can't show this key and port so
+```js
+import 'dotenv/config';
+import apminsight from 'apminsight';
+
+const PORT = process.env.PORT || 8000;
+
+apminsight({
+    licenseKey: process.env.APMINSIGHT_LICENSE_KEY,
+    port: PORT
+});
+```
 - Restart your application and make few transactions to view data in APM Insight client. 
 - Use Custom Instrumentation to track background transactions, app parameters and handled errors.
